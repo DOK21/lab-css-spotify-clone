@@ -7,10 +7,23 @@ White: #FFF
 
 */
 /* The navigation bar */
+
+  .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  float:right;
+}
 .navbar a {      /*not appearing on the right so far >.< */
   float: right;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
+    display: block; 
+    padding: 25x 20x;
     
   }
   #logo {
