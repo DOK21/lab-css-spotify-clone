@@ -7,25 +7,47 @@ White: #FFF
 
 */
 /* The navigation bar */
+.nav-list{
+  background:white;
+  box-shadow:0px 0px 10px var(clr --gray200);
+  margin:0;
+  padding: 1rem 0; 
+  border-radius:var(--radius);
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
 
-  .navbar ul{
+}
+.nav-item{
+  list-style:none;
+  margin-right: 2rem;
+
+}
+.nav-item a{
+  text:1A1A1A;
+  color: #00B172;
+
+}
+.logo{
+  margin-right:auto;
+  margin-left: 2rem;
+
+}
+
+ /* .navbar ul{
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
 }
 .navbar li{
-  display: inline-block;
-  float:right;
+  display: flex;
+  justify-content:flex-end;
 }
-.navbar a {      /*not appearing on the right so far >.< */
-  float: right;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    display: block; 
-    padding: 25x 20x;
-    
+.navbar a {     
+    display: flex; 
+    justify-content: flex-end; 
   }
+
   #logo {
     float: left  
   }
